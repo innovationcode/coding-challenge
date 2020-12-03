@@ -1,7 +1,7 @@
 def get_days_of_power(R1, D1, R2, D2, R3, D3, K):
       
-      if D1 + D2 + D3 == 0:
-            return 0
+      if R1 + R2 + R3 == 0:
+          return 0 # as total_rate will remain 0 
       
       if R1 < 0 or R2 < 0 or R3 < 0:
             return -1
